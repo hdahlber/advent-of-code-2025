@@ -20,9 +20,9 @@ def read_in_file(filename="input.txt"):
     
     return zeroes,passed_zero
 
+
 def main():
     zeroes, passed_zero = read_in_file("input.txt")
-
     print(f"Part 1 results: {zeroes}")
     print(f"Part 2 results: {passed_zero}")
 if __name__ == "__main__":

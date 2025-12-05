@@ -46,10 +46,10 @@ def read_in_file(filename="input.txt"):
         part_2_result += part_1_result
         que = True
         while que:
-            print("start")
+            #print("start")
             result,new_string = part_1(new_string,symbols_per_line,num_lines)
-            print(new_string)
-            print("result",result)
+            #print(new_string)
+            #print("result",result)
             if result == 0:
                 que = False
             else:
